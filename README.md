@@ -4,10 +4,10 @@
 
 This repo consists of 2 seperate versions of the task, one made with just the std libs, and one made with the warp crate which is based on hyper.rs
 
-###Crates used
+### Crates used
 The warp crate is a framework for making webservers extremely simple to compose with the help of filters. It is built on top of hyper.rs, and is therefore very performant and well tested.
 
-###Building 
+### Building 
 
 Simply run `cargo build --release` to build the executable for both servers
 
